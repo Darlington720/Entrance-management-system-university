@@ -30,17 +30,17 @@ function Footer(props) {
           <nav className="footer-nav">
             <ul>
               <li>
-                <a href="https://www.creative-tim.com" target="_blank">
-                  Creative Tim
+                <a href="https://www.nkumbauniversity.ac.ug" target="_blank">
+                  Help
                 </a>
               </li>
               <li>
-                <a href="https://blog.creative-tim.com" target="_blank">
+                <a href="https://www.nkumbauniversity.ac.ug" target="_blank">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="https://www.creative-tim.com/license" target="_blank">
+                <a href="https://www.nkumbauniversity.ac.ug" target="_blank">
                   Licenses
                 </a>
               </li>
@@ -48,8 +48,8 @@ function Footer(props) {
           </nav>
           <div className="credits ml-auto">
             <div className="copyright">
-              &copy; {1900 + new Date().getYear()}, made with{" "}
-              <i className="fa fa-heart heart" /> by Creative Tim
+              &copy; {1900 + new Date().getYear()}, Designed by{" "}
+              Nkumba University
             </div>
           </div>
         </Row>

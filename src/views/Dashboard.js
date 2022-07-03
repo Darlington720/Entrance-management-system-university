@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Dashboard React - v1.3.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // react plugin used to create charts
 import { Line, Pie } from "react-chartjs-2";
@@ -52,8 +34,8 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Capacity</p>
-                      <CardTitle tag="p">150GB</CardTitle>
+                      <p className="card-category">Students</p>
+                      <CardTitle tag="p">150</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -62,7 +44,7 @@ function Dashboard() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="fas fa-sync-alt" /> Update Now
+                  <i className="fas fa-calendar" /> Present on Date
                 </div>
               </CardFooter>
             </Card>
@@ -78,8 +60,8 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Revenue</p>
-                      <CardTitle tag="p">$ 1,345</CardTitle>
+                      <p className="card-category">Visitors</p>
+                      <CardTitle tag="p">78</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -88,7 +70,7 @@ function Dashboard() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="far fa-calendar" /> Last day
+                <i className="fas fa-sync-alt" /> Last day
                 </div>
               </CardFooter>
             </Card>
@@ -104,7 +86,7 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Errors</p>
+                      <p className="card-category">Teaching Staff</p>
                       <CardTitle tag="p">23</CardTitle>
                       <p />
                     </div>
@@ -130,8 +112,8 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Followers</p>
-                      <CardTitle tag="p">+45K</CardTitle>
+                      <p className="card-category">Support Staff</p>
+                      <CardTitle tag="p">25</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -140,7 +122,7 @@ function Dashboard() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="fas fa-sync-alt" /> Update now
+                <i className="fas fa-sync-alt" /> Refresh
                 </div>
               </CardFooter>
             </Card>
