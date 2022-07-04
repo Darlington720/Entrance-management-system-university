@@ -7,6 +7,10 @@ import Maps from "views/Map.js";
 import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";
 import Tables from "views/Tables";
+import studentTable from "views/studentTable.js";
+import supportStaffTable from "views/supportStaffTable";
+import teachingStaffTable from "views/teachingStaffTable";
+import VisitorsTable from "views/VisitorsTable";
 
 var routes = [
   {
@@ -20,28 +24,28 @@ var routes = [
     path: "/students",
     name: "Students",
     icon: "nc-icon nc-diamond",
-    component: Tables,
+    component: studentTable,
     layout: "/admin",
   },
   {
     path: "/visitors",
     name: "Visitors",
     icon: "nc-icon nc-pin-3",
-    component: Tables,
+    component: VisitorsTable,
     layout: "/admin",
   },
   {
     path: "/teaching-staff",
     name: "Teaching Staff",
     icon: "nc-icon nc-bell-55",
-    component: Tables,
+    component: teachingStaffTable,
     layout: "/admin",
   },
   {
     path: "/support-staff",
     name: "Support Staff",
     icon: "nc-icon nc-single-02",
-    component: Tables,
+    component: supportStaffTable,
     layout: "/admin",
   },
   {
